@@ -10,6 +10,20 @@ const string PASSWORD = "123";
 struct Book
 {string title, author; int stock;};
 
+//Fungsi Mengembalikan Nilai
+bool login
+{
+    string username, password;
+    //Perulangan Do while
+    do
+    {
+        cout<<"Masukkan Username: ";
+        cin>>username;
+        cout<<"Masukkan Password: ";
+        cin>>password;
+    } while (username != USERNAME || password != PASSWORD);
+    return true;
+}
 //Fungsi Tidak Mengembalikan Nilai
 //Array
 void inputbuku(Book books[], int &jumlahbuku)
@@ -104,17 +118,11 @@ int totalStock(Book books[], int jumlahbuku)
 
 int main()
 {
-    int menu, jumlahbuku = 0;
-    bool ulang = true;
-    string username, password;
-    //Perulangan Do while
-    do
+    //Kondisional
+    if (login)
     {
-        cout<<"Masukkan Username: ";
-        cin>>username;
-        cout<<"Masukkan Password: ";
-        cin>>password;
-    } while (username != USERNAME || password != PASSWORD);
+        int menu, jumlahbuku = 0;
+        bool ulang = true;
         //Array
         Book books[100];
         //Perulangan While
@@ -156,5 +164,6 @@ int main()
                     break;
             }
         }
+    }
     return 0;
 }
