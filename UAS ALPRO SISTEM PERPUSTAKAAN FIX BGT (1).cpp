@@ -10,8 +10,7 @@ const string PASSWORD = "123";
 struct Book
 {string title, author; int stock;};
 
-//Fungsi Mengembalikan Nilai
-bool login
+bool login()
 {
     string username, password;
     //Perulangan Do while
@@ -119,7 +118,7 @@ int totalStock(Book books[], int jumlahbuku)
 int main()
 {
     //Kondisional
-    if (login)
+    if (login())
     {
         int menu, jumlahbuku = 0;
         bool ulang = true;
