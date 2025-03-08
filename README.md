@@ -10,37 +10,15 @@ Repository ini berisi proyek UTS dan UAS mata kuliah **Algoritma Pemrograman** y
 - Pointer
 - Struktur Data Dasar
 
-## 📂 Struktur Repository
-
-```
-📦 UTS_UAS_AlgoProg
-├── 📁 src                # Direktori berisi kode sumber
-│   ├── uts.cpp           # Program UTS
-│   ├── uas.cpp           # Program UAS
-├── 📄 README.md          # Dokumentasi proyek
-├── 📄 LICENSE            # Lisensi proyek (Opsional)
-└── 📄 .gitignore         # File yang diabaikan oleh Git
-```
-
 ## 🚀 Cara Menjalankan Program
 
 1. Pastikan Anda telah menginstal **compiler C++**, seperti GCC atau MinGW.
 2. Clone repository ini ke komputer Anda menggunakan perintah berikut:
    ```sh
-   git clone https://github.com/username/UTS_UAS_AlgoProg.git
+   git clone https://github.com/Aripinnnnn/TugasPraktikum_Muhamad-Arifin
    ```
 3. Masuk ke direktori proyek:
-   ```sh
-   cd UTS_UAS_AlgoProg/src
-   ```
 4. Kompilasi dan jalankan program:
-   ```sh
-   g++ uts.cpp -o uts && ./uts
-   ```
-   atau untuk program UAS:
-   ```sh
-   g++ uas.cpp -o uas && ./uas
-   ```
 
 ## ✨ Fitur Program
 
